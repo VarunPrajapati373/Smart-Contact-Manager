@@ -32,7 +32,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String home(Model model) {
 		
-		model.addAttribute("title", "HOME - Smart Contact Manager");
+		model.addAttribute("title", "HOME||Smart Contact Manager");
 		
 		return "home";
 		
@@ -41,7 +41,7 @@ public class HomeController {
 	@RequestMapping("/about")
 	public String about(Model model) {
 		
-		model.addAttribute("title", "ABOUT - Smart Contact Manager");
+		model.addAttribute("title", "ABOUT||Smart Contact Manager");
 		
 		return "about";
 		
@@ -50,7 +50,7 @@ public class HomeController {
 	@RequestMapping("/signup")
 	public String signup(Model model) {
 		
-		model.addAttribute("title", "REGISTER - Smart Contact Manager");
+		model.addAttribute("title", "REGISTER||Smart Contact Manager");
 		
 		model.addAttribute("user", new User());
 		
@@ -112,7 +112,7 @@ public class HomeController {
 	@GetMapping("/signin")
 	public String customLogin(Model model) {
 		
-		model.addAttribute("title","LOGIN- Smart Contact Manager");
+		model.addAttribute("title","LOGIN||Smart Contact Manager");
 		return "login.html"; 
 	}
 

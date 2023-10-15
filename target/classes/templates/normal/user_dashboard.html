@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>HOME||Smart Contact User</title>
+</head>
+<body>
+	
+	<section>
+	
+		<div class="container">
+			<div class="card" style="border-radius:10px; background-color: #eeeee4;  
+				border: 1px solid rgba(255,255,255,0.3);
+  				background: rgba(255,255,255,0.2);
+  				border-radius: 15px;
+  				box-shadow: 0 4px 30px rgba(0,0,0,0.1);">
+  				
+				<div class="card-body my-5">
+					
+					<div class="container text-center">
+					<img style="height:200px; width: 200px;" class="my_profile_picture" th:src="@{'/image/contact.png'}" alt="profile photo" />
+					</div>	
+					
+					<h1 class="text-center mt-3 text-white font-italic font-weight-light" style="text-decoration: underline;">
+						Start Adding your contact to Cloud...
+					</h1>
+					
+					<a th:href="@{/user/add-contact}" class="btn bg-primary mt-4 btn-block text-uppercase text-white">Add New Contact</a>
+					
+				</div>
+			</div>
+		</div>
+		<script>
+			
+			$(document).ready(()=>{
+				
+				$(".item").removeClass("active");
+				$("#home-link").addClass("active");
+				
+			});
+			
+		</script>
+	
+	</section>
+	
+</body>
+</html>

@@ -2,23 +2,23 @@ This is a learning Project, the main Objective of this project to create an appl
 
 🛠 Tech Stack Galore:
 
-# 1. HTML, CSS, JavaScript, Bootstrap: Crafting beautiful interfaces seamlessly integrated with Thymeleaf template engine.
-# 2. Spring Boot: Powering our backend with its simplicity and agility.
-# 3. Maven: Managing dependencies like a pro.
-# 4. MySQL: Storing your contacts with reliability and efficiency.
+1. HTML, CSS, JavaScript, Bootstrap: Crafting beautiful interfaces seamlessly integrated with Thymeleaf template engine.
+2. Spring Boot: Powering our backend with its simplicity and agility.
+3. Maven: Managing dependencies like a pro.
+4. MySQL: Storing your contacts with reliability and efficiency.
 
 🎯 Functional Marvels:
 
-# 1. Effortless Contact Storage: Say hello to easy, efficient contact management.
-# 2. JWT-Based Authentication: Keeping your data secure with state-of-the-art authentication.
-# 3. Email Verification: Ensuring security with email verification during login.
-# 4. Fortified APIs with Spring Security: Your data's fortress against unauthorized access.
-# 5. Pagination: Navigate through your contacts effortlessly.
-# 6. Search: Find what you need, when you need it, in a snap.
-# 7. Custom Email Service: Built from scratch for seamless communication.
-# 8. Forget Password Feature: No worries if you forget - we've got you covered.
-# 9. OTP Authentication: Extra layer of security with OTP-based access.
-# 10. Caching Magic: Enhancing performance with efficient data caching.
+1. Effortless Contact Storage: Say hello to easy, efficient contact management.
+2. JWT-Based Authentication: Keeping your data secure with state-of-the-art authentication.
+3. Email Verification: Ensuring security with email verification during login.
+4. Fortified APIs with Spring Security: Your data's fortress against unauthorized access.
+5. Pagination: Navigate through your contacts effortlessly.
+6. Search: Find what you need, when you need it, in a snap.
+7. Custom Email Service: Built from scratch for seamless communication.
+8. Forget Password Feature: No worries if you forget - we've got you covered.
+9. OTP Authentication: Extra layer of security with OTP-based access.
+10. Caching Magic: Enhancing performance with efficient data caching.
 
 # SCREENSHOTS
 ![Screenshot from 2024-02-24 17-48-48](https://github.com/VarunPrajapati373/Smart-Contact-Manager/assets/65784683/04254a4b-de6d-4142-ac1d-8eeb42dcc3b0)
